@@ -10,7 +10,8 @@
 }
 ```
 
-Install the VSCode extension `marp-team.marp-vscode` for live-preview support.
+Install the VSCode extension `marp-team.marp-vscode` for live-preview support
+and export options (PDF and/or HTML).
 
 Example `slides.md` file:
 

@@ -6,14 +6,14 @@
     font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
-section {
+section, section.title::before {
     color: white;
     background: #140025;
-    background-image: url('https://raw.githubusercontent.com/xebia/marp-slide-theme/refs/heads/main/logo.svg');
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMTUuNzQ3IiBoZWlnaHQ9IjY1IiBmaWxsPSJub25lIiBjbGFzcz0iYmxvY2sgdy1mdWxsIj48cGF0aCBmaWxsPSIjZmZmIiBkPSJNNTAuNDAzIDIyLjczNGMzLjM3OSAwIDYuNTEyIDEuNzI2IDguNjE5IDQuNTQ1IDEuMjM0IDEuODAzIDEuODQyIDMuOTMyIDEuODQyIDYuNTh2MS4wMTZoLTE1LjkxYy4yMjggMi44MTkgMi4zMzUgNC42MjIgNS41ODIgNC41MDcgMi4wMTIgMCAzLjc3OC0uODQ0IDQuNzI3LTIuNDc0aDQuOTkyYy0xLjY3IDQuMzcyLTUuMTYzIDYuODQ2LTkuNTY3IDYuODQ2LTIuOTYyIDAtNS40MS0xLjAxNi03LjQ2LTMuMDg3LTEuODYxLTEuOTc2LTIuOTYzLTQuNzItMi45NjMtNy4zNjYgMC0yLjguOTUtNS4yNzQgMi43OTEtNy4yNSAyLjAxMy0yLjEyOCA0LjYzMi0zLjMxNyA3LjM0Ny0zLjMxN20tLjE1MiA0LjI3NmMtMi4zNTQgMC00LjU3NSAxLjYzLTUuMjQgNC4xMDVoMTAuODRjLS43NC0yLjY0Ny0yLjY3Ny00LjEwNS01LjYtNC4xMDVNNjcuODcgMTYuOTAydjguMDM2YzEuNzg1LTEuNDU3IDMuNzQtMi4wMzMgNi4xNS0xLjk3NSAyLjYyIDAgNS4wMTMuODQzIDYuODU0IDIuNjQ2IDIuMjIxIDEuOTc2IDMuMzk4IDQuODkgMy4zOTggNy44MDcgMCAzLjE2NC0xLjMyOSA2LjEzNi0zLjcyIDguMjA4LTEuNzg1IDEuNDU3LTMuOTY4IDIuMy02LjUxMiAyLjMtMi4zMzUgMC00LjMyOC0uNjctNi4xNy0yLjEyOHYxLjYzaC00LjU1N1YxNi45MDN6bTUuODQ3IDEwLjU4N2MtMy4yMjcgMC01LjY3NiAyLjU3LTUuNjc2IDYuMDA0IDAgMy4yNiAyLjU2MyA1LjgzIDUuNDMgNS44MSAzLjU2OSAwIDYuMDE3LTIuNTkgNi4wMTctNS45MDcgMC0zLjE2NC0yLjU0NC01LjkwNy01Ljc3MS01LjkwN20xOC4xMyAxNS45MzhoLTQuNDA1VjIzLjQyNGg0LjQwNXptMC0yMi4wNzZoLTQuNDA1VjE2LjloNC40MDV6bTEzLjIxMSAxLjU1NWMyLjg4NiAwIDQuOTM2Ljk0IDYuMjg0IDIuOTE1di0yLjM5N2g0LjQwNXYyMC4wMDNoLTQuNDI0di0yLjQ3M2MtMS4xMDEgMi4wNy0zLjExNCAyLjkxNS02LjE3IDIuOTE1LTUuODI4IDAtMTAuMjMyLTQuNTA3LTEwLjIzMy0xMC41MSAwLTIuODIuOTUtNS4zOSAyLjc5MS03LjM2NSAyLjAxMy0yLjEzIDQuMzg2LTMuMDg4IDcuMzQ3LTMuMDg4bS4xOSA0LjUwN2MtMy4xMzMgMC01LjY3NyAyLjQ3NS01LjY3NyA1LjczNSAwIDMuNTI5IDIuNjIgNi4wMDMgNS43NTMgNi4wMDMgMi44ODUgMCA1LjUwNC0yLjY0NyA1LjUwNS01LjczNCAwLTMuNDMzLTIuNjk2LTYuMDA0LTUuNTgxLTYuMDA0Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTS4xNyA1MS45ODZoMTIuMDJsMTMuMDAzLTEzLjA3NyAxMi45NjUgMTMuMDc1aDEyLjE3MUwzMS4yNzkgMzIuNzdsMTkuMjItMTkuMzY4SDM4LjMyOEwyNS4xOTMgMjYuNjdsLTEzLjA2LTEzLjI2OEgwTDE5LjEwNyAzMi43N3oiLz48L3N2Zz4=');
     background-repeat: no-repeat;
     background-position: top 21px right 50px;
     background-size: auto 50px;
-    padding: 0 50px 100px 50px;
+    padding: 0 50px 90px 50px;
     font-size: 24px;
 }
 
@@ -26,40 +26,28 @@ section.title::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('https://raw.githubusercontent.com/xebia/marp-slide-theme/refs/heads/main/logo.svg') center center / contain no-repeat;
+    background-color: rgba(0,0,0,0.5);
     background-position: top 21px left 50px;
-    background-size: auto 50px;
-    z-index: 1;
+    z-index: -1;
 }
-
 
 section.title {
-    background: #140025;
-    background-image: url('https://raw.githubusercontent.com/xebia/marp-slide-theme/refs/heads/main/bg-title.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
     padding-left: 450px;
     padding-bottom: 50px;
+    background: none;
 }
-
-section.title::after {
-    display: block!important;
-    color:transparent;
+section.title p:nth-of-type(1) img {
+    display: block;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 0;
+    object-fit: cover;
+    z-index: -2;
+    border-radius: 0;
+    transform: none;
 }
-
-section.title > *:not(img, header, footer, p:has(img)) {
-    position: relative;
-    z-index: 1;
-}
-
 section.title img {
     border-radius: 100%;
     position: absolute;
@@ -70,7 +58,6 @@ section.title img {
     object-fit: cover;
     width: 300px;
     height: auto;
-    z-index: 1;
 }
 
 section.title header {
@@ -178,7 +165,6 @@ header {
     top: auto;
     bottom: 31px;
     display: none;
-    z-index: 1;
 }
 
 footer {
@@ -189,6 +175,5 @@ footer {
     width: calc(100% - 100px);
     border-top: 1px solid white;
     padding-top: 10px;;
-    z-index: 1;
 }
 

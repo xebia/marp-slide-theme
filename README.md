@@ -5,6 +5,32 @@
 {
   "markdown.marp.themes": [
     "https://raw.githubusercontent.com/xebia/marp-slide-theme/refs/heads/main/theme.css"
-  ]
+  ],
+  "markdown.marp.breaks": "off"
 }
+```
+
+Install the VSCode extension `marp-team.marp-vscode` for live-preview support.
+
+```
+---
+marp: true
+theme: xebia
+class: invert
+paginate: true
+header: Shaping Tomorrow With AI Today
+footer: Maurits van der Schee   •   Claude Code Mastery Training
+---
+
+<!-- _class: title -->
+
+![background](bg-title.jpg)
+
+![Maurits van der Schee](../trainers/mevdschee.jpg)
+
+# Claude Code Mastery Training
+
+### Maurits van der Schee
+
+---
 ```

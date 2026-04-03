@@ -44,8 +44,8 @@ section.title {
 }
 
 section.title::after {
-    display: block!important;
-    color:transparent;
+    display: block !important;
+    color: transparent;
     position: absolute;
     top: 0;
     left: 0;
@@ -55,7 +55,7 @@ section.title::after {
     z-index: 0;
 }
 
-section.title > *:not(img, header, footer, p:has(img)) {
+section.title>*:not(img, header, footer, p:has(img)) {
     position: relative;
     z-index: 1;
 }
@@ -79,7 +79,7 @@ section.title header {
 }
 
 section.title footer {
-    border: none;   
+    border: none;
 }
 
 section.title::after {
@@ -107,7 +107,9 @@ h2 {
     font-size: 52px;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
     color: white;
     font-weight: normal;
 }
@@ -125,12 +127,15 @@ pre {
     line-height: 1.4;
 }
 
-table, tr, td, th {
-    border-color: rgba(255, 255, 255, 0.25)!important;
+table,
+tr,
+td,
+th {
+    border-color: rgba(255, 255, 255, 0.25) !important;
 }
 
 table tr {
-    background: rgba(255, 255, 255, 0.05)!important;
+    background: rgba(255, 255, 255, 0.05) !important;
 }
 
 section img {
@@ -167,13 +172,13 @@ section::after {
     bottom: 31px;
     right: 50px;
     font-size: 16px;
-    color:white;
+    color: white;
 }
 
 header {
     left: auto;
     right: 50px;
-    color:white;
+    color: white;
     font-size: 16px;
     top: auto;
     bottom: 31px;
@@ -185,10 +190,10 @@ footer {
     font-size: 16px;
     left: 50px;
     bottom: 31px;
-    color:white;
+    color: white;
     width: calc(100% - 100px);
     border-top: 1px solid white;
-    padding-top: 10px;;
+    padding-top: 10px;
+    ;
     z-index: 1;
 }
-

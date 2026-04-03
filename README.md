@@ -12,6 +12,8 @@
 
 Install the VSCode extension `marp-team.marp-vscode` for live-preview support.
 
+Example `slides.md` file:
+
 ```
 ---
 marp: true
@@ -26,11 +28,19 @@ footer: Maurits van der Schee   •   Claude Code Mastery Training
 
 ![background](bg-title.jpg)
 
-![Maurits van der Schee](../trainers/mevdschee.jpg)
+![Maurits van der Schee](mevdschee.jpg)
 
 # Claude Code Mastery Training
 
 ### Maurits van der Schee
 
 ---
+
+## The second slide
+
+- point 1
+- point 2
+- point 3
+
+some text below
 ```

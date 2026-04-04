@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@marp-team/marp-core": "^4.3.0"
+  }
+}

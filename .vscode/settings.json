@@ -1,0 +1,8 @@
+{
+  "markdown.marp.themes": [
+    "theme.css"
+  ],
+  "markdown.marp.breaks": "off",
+  "markdown.marp.exportType": "html",
+  "markdown.marp.exportAutoOpen": false
+}

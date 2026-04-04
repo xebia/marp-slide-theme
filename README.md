@@ -45,3 +45,19 @@ footer: Maurits van der Schee   •   Claude Code Mastery Training
 
 some text below
 ```
+
+### Debugging
+
+install
+
+    npm install @marp-team/marp-core
+
+build
+
+    node marp-debug.js slides.md --theme theme.css --out slides.html
+
+test
+
+    open slides.html
+
+use dev tools to debug

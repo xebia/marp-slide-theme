@@ -50,11 +50,11 @@ some text below
 
 install
 
-    npm install @marp-team/marp-core
+    npm install @marp-team/marp-cli
 
 build
 
-    node marp-debug.js slides.md --theme theme.css --out slides.html
+    node marp-debug.js slides.md --theme theme.css --output slides.html
 
 test
 

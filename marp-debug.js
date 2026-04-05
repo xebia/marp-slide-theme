@@ -7,13 +7,13 @@ import { Marp } from "@marp-team/marp-core";
 const args = process.argv.slice(2);
 
 if (args.length === 0) {
-  console.error("Usage: marp-debug <file.md> [--theme theme.css] [--out out.html]");
+  console.error("Usage: marp-debug <file.md> [--theme theme.css] [--output out.html]");
   process.exit(1);
 }
 
 const inputFile = args[0];
 const themeArg = args.indexOf("--theme");
-const outArg = args.indexOf("--out");
+const outArg = args.indexOf("--output");
 
 const themeFile = themeArg !== -1 ? args[themeArg + 1] : null;
 const outFile = outArg !== -1 ? args[outArg + 1] : "debug.html";

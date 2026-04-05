@@ -7,8 +7,6 @@
     "https://raw.githubusercontent.com/xebia/marp-slide-theme/refs/heads/main/theme.css"
   ],
   "markdown.marp.breaks": "off"
-  "markdown.marp.exportType": "pdf",
-  "markdown.marp.exportAutoOpen": false,
   "markdown.preview.scrollEditorWithPreview": false
 }
 ```

@@ -26,7 +26,7 @@ header: Shaping Tomorrow With AI Today
 footer: Maurits van der Schee   •   Claude Code Mastery Training
 ---
 
-<!-- _class: title -->
+<!-- _class: title invert -->
 
 ![background](bg-title.jpg)
 

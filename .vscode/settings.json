@@ -3,6 +3,7 @@
     "theme.css"
   ],
   "markdown.marp.breaks": "off",
-  "markdown.marp.exportType": "html",
-  "markdown.marp.exportAutoOpen": false
+  "markdown.marp.exportType": "pdf",
+  "markdown.marp.exportAutoOpen": false,
+  "markdown.preview.scrollEditorWithPreview": false
 }

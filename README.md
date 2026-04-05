@@ -7,6 +7,9 @@
     "https://raw.githubusercontent.com/xebia/marp-slide-theme/refs/heads/main/theme.css"
   ],
   "markdown.marp.breaks": "off"
+  "markdown.marp.exportType": "pdf",
+  "markdown.marp.exportAutoOpen": false,
+  "markdown.preview.scrollEditorWithPreview": false
 }
 ```
 
@@ -46,18 +49,14 @@ footer: Maurits van der Schee   •   Claude Code Mastery Training
 some text below
 ```
 
-### Debugging
+### Building / Debugging
 
-install
+Install the dependencies using:
 
     npm install @marp-team/marp-cli
 
-build
+Debug using `marp-debug.js`, execute:
 
-    node marp-debug.js slides.md --theme theme.css --output slides.html
+    node marp-debug.js slides.md --theme theme.css --output slides-debug.html
 
-test
-
-    open slides.html
-
-use dev tools to debug
+Use your browser developer tools to debug `slides-debug.html` (press F12).

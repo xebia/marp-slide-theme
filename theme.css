@@ -54,6 +54,10 @@ section.title::before {
     z-index: -1;
 }
 
+section.title:has(.invert) h3 {
+    color: #d49ed4;
+}
+
 section.title:not(.invert) h3 {
     color: #831B84;
 }
@@ -104,17 +108,11 @@ section.title::after {
 /* other slides */
 
 strong {
-    color: #e331d0;
-}
-
-section:not(.invert) em {
     color: #831B84;
 }
 
-em {
+section.invert strong {
     color: #d49ed4;
-    font-style: normal;
-    font-weight: bold;
 }
 
 h1 {
@@ -139,7 +137,14 @@ section.invert h3 {
 section h3, section.invert h3 {
     font-size: 32px;
     font-weight: bold;
-    color: #e331d0;
+}
+
+section h3 {
+    color: #831B84;
+}
+
+section.invert h3 {
+    color: #d49ed4;
 }
 
 pre {

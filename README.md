@@ -1,5 +1,8 @@
 # Xebia Marp Slide Theme
 
+Install the VSCode extension `marp-team.marp-vscode` for live-preview support
+and export options (PDF and/or HTML).
+
 ```
 // Please put `.vscode/settings.json` on your workspace
 {
@@ -10,9 +13,6 @@
   "markdown.preview.scrollEditorWithPreview": false
 }
 ```
-
-Install the VSCode extension `marp-team.marp-vscode` for live-preview support
-and export options (PDF and/or HTML).
 
 Example `slides.md` file:
 

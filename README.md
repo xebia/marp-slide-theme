@@ -9,7 +9,7 @@ and export options (PDF and/or HTML).
   "markdown.marp.themes": [
     "https://raw.githubusercontent.com/xebia/marp-slide-theme/refs/heads/main/theme.css"
   ],
-  "markdown.marp.breaks": "off"
+  "markdown.marp.breaks": "off",
   "markdown.preview.scrollEditorWithPreview": false
 }
 ```
